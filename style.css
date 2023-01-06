@@ -1,0 +1,205 @@
+img{
+    max-width: 100%;
+}
+
+p {
+    font-size: 25px;
+    color: #707070;
+}
+
+.common-btn {
+    background: #ff5959;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+/* banner section */
+
+.banner {
+    background-image: url("resources/images/donation5.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    margin-bottom: 3%;
+    padding: 12% 0;
+    position: relative;
+    z-index: 1;
+}
+
+.banner::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    /* background: rgba(0,0,0,.6); */
+    background: linear-gradient(rgba(255, 255, 255, .1), rgba(0,0,0, 1));
+    z-index: -1;
+}
+
+.banner-content {
+    text-align: center;
+}
+.banner-title {
+    font-size: 83px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.banner-description {
+    width: 61%;
+    margin: 3% auto;
+    color: #fff;
+}
+
+/* donate section */
+
+.donate {
+    text-align: center;
+    margin: 6% 0;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 2%;
+}
+
+.donate p , .plan-description {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.donate-amount {
+    width: 75%;
+    margin: 5% auto;
+}
+
+.donate-amount a {
+    color: #707070;
+    text-decoration: none;
+    font-size: 37px;
+    padding: 3%;
+    display: inline-block;
+    background: #fafafa;
+    font-weight: 700;
+    margin: 0 1%;
+    border-radius: 8px;
+}
+a.active {
+    background: #ffeeee;
+    border: 4px solid #ff5959;
+}
+.donate-amount a:hover{
+    color: #ff5959;
+}
+
+.donate-input {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.donate-input input {
+    width: 50%;
+    border: none;
+    font-size: 26px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.donate-input hr {
+    color: #707070;
+    margin: 3% 0;
+}
+
+/* donate plan / card section */
+
+.card-part {
+    margin: 6% 0;
+}
+
+.card1-bg {
+    background: #edf5f6;
+}
+
+.card2-bg {
+    background: #ffeeee;
+}
+
+.card3-bg {
+    background: #fff4d6;
+}
+
+.card-contant {
+    padding: 11% 9%;
+    border-radius: 10px;
+    width: 95%;
+    margin: 0 auto;
+}
+.card-contant img {
+    width: 23%;
+}
+.card-contant h3 {
+    font-size: 30px;
+    margin: 6% 0;
+}
+.card-contant p {
+    font-size: 20px;
+}
+
+/* contribute section */
+
+.contribute .row {
+    align-items: center;
+}
+
+.reverse-contribute {
+    flex-direction: row-reverse;
+}
+
+.contribute-text {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* contact section */
+.contact-input {
+    margin: 5% auto;
+    text-align: center;
+    padding: 7% 0;
+    background: #fff4d6;
+    width: 80%;
+}
+.contact-input input {
+    width: 38%;
+    display: inline-block;
+    font-size: 25px;
+    background: #d9d9d9;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    padding: 10px 20px;
+}
+.contact-input button {
+    border-radius: 0 5px 5px 0;
+}
+
+/* footer section */
+
+footer {
+    background: #0b0d17;
+    color: white;
+    text-align: center;
+    padding: 2% 0;
+}
+
+footer h2 {
+    font-family: cursive;
+}
+footer p {
+    font-size: 17px;
+}
